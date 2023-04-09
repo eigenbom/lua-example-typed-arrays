@@ -1,0 +1,32 @@
+{
+	"Lua.workspace.library": [
+		"lua_modules",
+		"${3rd}/busted"
+	],
+	"Lua.runtime.version": "LuaJIT",
+	"Lua.workspace.ignoreDir": [
+		".vscode",
+		".luacov",
+		".busted"
+	],
+	"Lua.misc.parameters": [
+		"--develop=true"
+	],
+	"Lua.diagnostics.disable": [
+		"lowercase-global",
+		"duplicate-doc-alias",
+		"duplicate-set-field"
+	],
+	"Lua.semantic.keyword": false,
+	"files.associations": {
+		".luacov": "lua",
+		".busted": "lua",
+		"lua.h": "c",
+		"stb_ds.h": "c",
+		"limits.h": "c",
+		"lauxlib.h": "c",
+		"stdint.h": "c",
+		"cstdlib": "c",
+		"stdlib.h": "c"
+	}
+}
